@@ -30,3 +30,4 @@ spec:
               value: 5432
             - name: PGDATABASE
               value: postgres
+# kubectl create secret generic pgpassword --from-literal PGPASSWORD=12345
