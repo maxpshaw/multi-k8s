@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: client-server-ip-service
+  name: server-cluster-ip-service
 spec:
   type: ClusterIP
   selector:
